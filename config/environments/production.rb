@@ -83,4 +83,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.secret_key_base='c1e7db8d1754212b60b08ce668934c5a581b72a1019134424dc2c8a53b380c02bf229209dfcfe4129a9de0c22a04d26d47edf434408800fd1d110b3096e1834d'
 end
